@@ -8,13 +8,13 @@ We have to follow the given steps to compile any **.c** file in our machine:
 1. Open the terminal and locate to the directory where you want to create your file. Then run the following command:
 
 	```
-	gedit sum_1ton.c
+	gedit shabaz.c
 	```  
 2. This will open the text editor and allows you to write the code. You have to write the C code of printing the sum of n numbers. Once you are done with your code, press ```Ctrl + S``` to save your file, and then press ```Ctrl + W``` to close the editor.   
 3. To the C code on your terminal, run the following command:
 
 	```
-	gcc sum_1ton.c
+	gcc shabaz.c
 	./a.out
 	```
  ![Image](https://github.com/user-attachments/assets/291c6dc0-76ba-4373-bdb0-0f8aed49acfd)
