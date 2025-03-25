@@ -17,4 +17,5 @@ We have to follow the given steps to compile any **.c** file in our machine:
 	gcc sum_1ton.c
 	./a.out
 	```
+ ![Image](https://github.com/user-attachments/assets/291c6dc0-76ba-4373-bdb0-0f8aed49acfd)
  
