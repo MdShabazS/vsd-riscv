@@ -17,5 +17,5 @@ We have to follow the given steps to compile any **.c** file in our machine:
 	gcc sum_1ton.c
 	./a.out
 	```
-![C Code compiled on gcc Compiler](https://ghttps://github.com/MdShabazS/vsd-riscv/blob/main/Task%201/C%20Code%20compiled%20on%20riscv%20gcc%20Compiler.png?raw=trueithub.com/maazm007/vsdsquadron-mini-internship/assets/83294849/8ca03eec-c0cf-4a34-9c4b-2ff791a3b550)
+![C Code compiled on gcc Compiler](https://ghttps://github.com/MdShabazS/vsd-riscv/blob/main/Task%201/C%20Code%20compiled%20on%20riscv%20gcc%20Compiler.png?raw=true)
 
