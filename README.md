@@ -20,7 +20,7 @@ We have to follow the given steps to compile any **.c** file in our machine:
  This command compiles the code.
  4. To Run the Code, Run the following command :
  
-	./a.out
+		./a.out
  
  ![Image](https://github.com/user-attachments/assets/291c6dc0-76ba-4373-bdb0-0f8aed49acfd)
  
