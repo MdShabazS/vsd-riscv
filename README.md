@@ -52,30 +52,31 @@ Follow the given steps:
 
 
 4.To get Main section of data run the given command, after that  Type ```/main``` to locate the main section of our code :
+```
 	riscv64-unknown-elf-objdump -d shabaz.o | less
- 
+``` 
  
  ![Objdump using -O1 format](link)
 
 
 5.To get Objdump in -Ofast format Run the given command :
+```
 	riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o shabaz.o shabaz.c
-
+```
 
  ![Objdump using -Ofast format](link)
 
 
 6.Open a new tab in terminal and then run the given command:    
+```
 		riscv64-unknown-elf-objdump -d shabaz.o
- 
+``` 
 
 ![Objdump using -Ofast format](link)
 
 7.To get Main section of data run the given command, after that  Type ```/main``` to locate the main section of our code :
-	
- 
- 	riscv64-unknown-elf-objdump -d shabaz.o | less
- 
-
+ ```
+	riscv64-unknown-elf-objdump -d shabaz.o | less
+```
  ![Objdump using -Ofast format](link)
 
