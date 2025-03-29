@@ -46,10 +46,9 @@ Follow the given steps:
 
 
 4.To get Main section of data run the given command, after that  Type ```/main``` to locate the main section of our code :
-	```
+ 	```
 	riscv64-unknown-elf-objdump -d shabaz.o | less
 	``` 
- 
  ![Objdump using -O1 format](link)
 
 
@@ -64,7 +63,7 @@ Follow the given steps:
 6.Open a new tab in terminal and then run the given command:    
 	```
 	riscv64-unknown-elf-objdump -d shabaz.o
-	``` 
+	```
 
 ![Objdump using -Ofast format](link)
 
