@@ -18,7 +18,7 @@ We have to follow the given steps to compile any **.c** file :
  	```
 	./a.out
  	```
- ![Image](https://github.com/user-attachments/assets/291c6dc0-76ba-4373-bdb0-0f8aed49acfd)
+ ![Image](https://github.com/user-attachments/assets/0b3d3fd8-bb1c-4180-8d2d-04be5a800b57)
 
 
  ### RISCV based LAB
@@ -27,13 +27,13 @@ Follow the given steps:
  	```
  	cat shabaz.c
  	```
- ![cat Command](link)
+ ![Image](https://github.com/user-attachments/assets/6e030205-fcd4-4eb0-8314-9cfae38957f4)
 
  2. To compile the code in riscv64 gcc compiler to get Objdump in -O1 format Run the given command : 
 	```
 	riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o shabaz.o shabaz.c
 	``` 
-![Objdump using -O1 format](link)
+![Image](https://github.com/user-attachments/assets/d1ae3d0a-ef71-4688-b173-dde28d2a0932)
 
   3. Open a new tab in terminal and then run the given command:    
 	
@@ -46,13 +46,13 @@ Follow the given steps:
  
 	riscv64-unknown-elf-objdump -d shabaz.o | less
 	
-![Objdump using -O1 format](link)
+![Image](https://github.com/user-attachments/assets/eaffcb47-87c3-4f94-b6e6-3b98aa69aef3)
 
   5.To get Objdump in -Ofast format Run the given command in previous tab :
 	
  	riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o shabaz.o shabaz.c
 
- ![Objdump using -Ofast format](link)
+![Image](https://github.com/user-attachments/assets/69a7b5e4-e341-46a1-8e02-d962f981992d)
 
   6.Open a new tab in terminal and then run the given command:    
 		
@@ -64,5 +64,5 @@ Follow the given steps:
  	  	
 	riscv64-unknown-elf-objdump -d shabaz.o | less
 	
- ![Objdump using -Ofast format](link)
+![Image](https://github.com/user-attachments/assets/d86ec69c-0e0e-4ebf-b65c-ec98e538ed10)
 
