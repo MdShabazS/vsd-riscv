@@ -1,5 +1,5 @@
 # vsd-riscv
-
+In the Entire code the shabaz.c refers to the file-name.
 <details>
 <summary><b>Task 1:</b> Task is to refer to C based and RISCV based lab and compiling the C code using gcc and riscv compiler</summary>
 
@@ -23,4 +23,67 @@ We have to follow the given steps to compile any **.c** file :
 	./a.out
  	```
  ![Image](https://github.com/user-attachments/assets/291c6dc0-76ba-4373-bdb0-0f8aed49acfd)
+
+
+ ### RISCV based LAB
+Follow the given steps:  
+1. Open the terminal and then run the given command:  
+
+	```
+	cat shabaz.c
+	```
+![cat Command](link)
+
+2. Now run the given command to compile the code in riscv64 gcc compiler to get Objdump in -O1 format :  
+
+	```
+	riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o shabaz.o shabaz.c
+	```
+
+ ![Objdump using -O1 format](link)
+
+ 
+3. Open a new tab in terminal and then run the given command:    
+
+	```
+	riscv64-unknown-elf-objdump -d shabaz.o
+	```
+![Objdump using -O1 format](link)
+
+
+4.To get Main section of data run the given command, after that  Type ```/main``` to locate the main section of our code :
+
+	```
+	riscv64-unknown-elf-objdump -d shabaz.o | less
+	```
+ ![Objdump using -O1 format](link)
+
+
+5.To get Objdump in -Ofast format Run the given command :
+
+	```
+	riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o shabaz.o shabaz.c
+	```
+
+ ![Objdump using -Ofast format](link)
+
+
+6.Open a new tab in terminal and then run the given command:    
+
+	```
+	riscv64-unknown-elf-objdump -d shabaz.o
+	```
+![Objdump using -Ofast format](link)
+
+7.To get Main section of data run the given command, after that  Type ```/main``` to locate the main section of our code :
+
+	```
+	riscv64-unknown-elf-objdump -d shabaz.o | less
+	```
+ ![Objdump using -Ofast format](link)
+
+
+8.
+9.  The Assembly Language code of our C code will be displayed on the terminal. Type ```/main``` to locate the main section of our code.  
+
  
